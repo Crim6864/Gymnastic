@@ -1,0 +1,48 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Smooch+Sans:wght@100..900&display=swap')
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #F4F6F6;
+}
+
+.navbar {
+    background-color: #1bace4;
+    box-shadow: 2px 2px 2px black;
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-size: 180%;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-transform: uppercase;
+}
+
+.navbar-nav a {
+    font-size: 110%;
+}
+
+img {
+    margin: 10px;
+}
+
+.container h1, h2, p, a {
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-size: 110%;
+}
+
+.container h1 {
+    box-shadow: 5px 5px 5px #1bace4;
+    margin-top: 10px;
+    font-size: 180%;
+}
+
+
+
+
+
