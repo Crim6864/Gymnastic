@@ -7,17 +7,6 @@ body {
     background-color: #F4F6F6;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
-.wrapper {
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
 .navbar {
     background-color: #01386A;
     box-shadow: 3px 3px 3px #1bace4;
@@ -40,30 +29,52 @@ img {
     margin: 10px;
 }
 
+p, a {
+    color: black;
+}
+
+/* Content */
+
 .container h1, h2, p, a {
+    color: black;
     letter-spacing: 2px;
     margin-bottom: 20px;
     font-size: 110%;
 }
 
 .container h1 {
-    box-shadow: 5px 5px 5px #1bace4;
+    background-color: #1bace4;
+    box-shadow: 5px 5px 5px #01386A;
     margin-top: 10px;
     font-size: 180%;
+    padding: 2px;
+}
+
+/* About */
+
+.photos h2 {
+    font-style: italic;
 }
 
 /* Footer */
 
 .footer {
     background-color: #01386A; /* Adjust the background color as needed */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #01386A; /* Adjust the background color as needed */
+    color: white; /* Text color */
+    padding: 20px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+.footer .container p {
+    color: white;
 }
 
 .footer i {
     font-size: 200%;
     color: white;
     margin: 10px;
-}
-
-.footer a, p {
-    font-size: 130%;
 }
