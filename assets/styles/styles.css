@@ -9,7 +9,7 @@ body {
     background-color: #F4F6F6;
 }
 
-#logo {
+.logo {
     background: url('../images/KGlogga.webp') no-repeat center center / cover;
     width: 100px;
     height: 100px;
