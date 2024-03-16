@@ -50,6 +50,11 @@ p, a {
     padding: 2px;
 }
 
+iframe {
+    width: 90vw;
+    height: 90vw;
+}
+
 /* About */
 
 .photos h2 {
