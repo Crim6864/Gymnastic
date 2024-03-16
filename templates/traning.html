@@ -19,12 +19,12 @@
         type="text/css" />
 
     <!-- CSS Link -->
-    <link href="/assets/css/styles.css" rel="stylesheet">
+    <link href="/static/css/styles.css" rel="stylesheet">
     <!-- Titel -->
     <title>Kils Gymnaster</title>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg">
         <!-- logo -->
@@ -37,22 +37,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav text-center ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Hem</a>
+                    <a class="nav-link" href="/templates/index.html">Hem</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="traning.html">Träning</a>
+                    <a class="nav-link" href="/templates/traning.html">Träning</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">Om oss</a>
+                    <a class="nav-link" href="/templates/about.html">Om oss</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Kontakt</a>
+                    <a class="nav-link" href="/templates/contact.html">Kontakt</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="calender.html">Kalender</a>
+                    <a class="nav-link" href="/templates/calender.html">Kalender</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.tifosi.se/kilsgymnaster" target="_blank">Webbshop</a>
+                    <a class="nav-link" href="https://www.tifosi.se/kilsgymnaster">Webbshop</a>
                 </li>
             </ul>
             <div class="ml-auto">
@@ -126,161 +126,185 @@
             </div>
         </div>
     </div>
-
     <!-- Content -->
     <div class="container text-center ">
-        <div class="row photos">
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+                <h1>Priser & Grupper</h1>
+                <p>Gymnastik 1 träning i veckan: 600kr / termin (10 ggr)</p>
+                <hr>
+                <p>Gymnastik 2 träningar i veckan: 850kr / termin (20 ggr)</p>
+                <hr>
+                <p>Parkour: 600kr / termin (10 ggr)</p>
+                <hr>
+                <p>Vuxen-gympa: 600kr / termin (10 ggr)</p>
+                <hr>
+                <p>Försäkring ingår i alla grupper.</p>
+                <p>Våra avgifter och eventuellt andra avgifter betalas till föreningens konto via:</p>
+                <p>Swish - 123 501 04 59
+                    <br>
+                    eller
+                    <br>
+                    Bankgiro: 5162-6828
+                </p>
+                <p>Viktigt att det i alla betalningar anges namn och grupp på deltagaren.</p>
+                <hr>
+            </div>
             <div class="col-sm-12 col-md-6">
-                <img src="/assets/images/louise.webp" width="40%">
-                <h1>Louise Larsson</h1>
-                <h2>Jag tycker gymnastik är roligt</h2>
-                <p>
-                    Tränare: Bamse, Lejonen, Parkour, Bävrarna & Vuxengympa
+                <h1>Bamse</h1>
+                <p>Födda: 21
                     <br>
-                    Född: 1990
+                    Dag: Söndag
                     <br>
-                    Styrelsen: Kassör
+                    Tid: 12:30-13:30
                     <br>
-                    Utbildning: Bamsegympa, Truppgymnastik & Parkour
+                    Plats: Vikstahallen
+                    <br>
+                    Ledare: Louise & Daniel
                 </p>
                 <hr>
             </div>
             <div class="col-sm-12 col-md-6">
-                <img src="assets/images/KG_logo_black-4.webp" width="60%">
-                <h1>Daniel Eriksson</h1>
-                <h2>Jag tycker gymnastik är roligt</h2>
+                <h1>Brummelisa</h1>
                 <p>
-                    Tränare: Bamse, Lejonen, Parkour, Bävrarna & Vuxengympa
+                    Födda: 20
                     <br>
-                    Född: 1987
+                    Dag: Söndag
                     <br>
-                    Styrelsen: Suppliant & Webbansvarig
+                    Tid: 12:30-13:30
                     <br>
-                    Utbildning: Truppgymnastik A och Redskap B
+                    Plats: Vikstahallen
+                    <br>
+                    Ledare: Isabell & Olivia
                 </p>
                 <hr>
             </div>
             <div class="col-sm-12 col-md-6">
-                <img src="assets/images/isabelle.webp" width="40%">
-                <h1>Isabell Fryklund</h1>
-                <h2>Jag tycker gymnastik är roligt</h2>
-                <p>
-                    Tränare: Brummelisa, Delfinerna, Fiskarna & Grodorna
+                <h1>Lejonen</h1>
+                <p>Födda: 19
                     <br>
-                    Född: 2005
+                    Dag: Söndag
                     <br>
-                    Styrelsen: Administratör Medlemmar
+                    Tid: 13:30-14:30
                     <br>
-                    Utbildning: Bamsegympa & Parkour
+                    Plats: Vikstahallen
+                    <br>
+                    Ledare: Louise & Daniel
                 </p>
                 <hr>
             </div>
             <div class="col-sm-12 col-md-6">
-                <img src="assets/images/olivia.webp" width="45%">
-                <h1>Olivia Asplund</h1>
-                <h2>Jag tycker gymnastik är roligt</h2>
+                <h1>Delfinerna</h1>
                 <p>
-                    Tränare: Brummelisa, Delfinerna, Fiskarna & Grodorna
+                    Födda: 18
                     <br>
-                    Född: 2000
+                    Dag: Söndag
                     <br>
-                    Styrelsen: Suppliant
+                    Tid: 13:30-14:30
                     <br>
-                    Utbildning: Bamsegympa & Parkour
+                    Plats: Vikstahallen
+                    <br>
+                    Ledare: Isabell & Olivia
+                    <hr>
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <h1>Fiskarna</h1>
+                <p>
+                    Födda: 17
+                    <br>
+                    Dag: Söndag
+                    <br>
+                    Tid: 15:00-16:00
+                    <br>
+                    Plats: Vikstahallen
+                    <br>
+                    Ledare: Isabell & Olivia
                 </p>
                 <hr>
             </div>
             <div class="col-sm-12 col-md-6">
-                <img src="assets/images/sandra.webp" width="40%">
-                <h1>Sandra Wirvén</h1>
-                <h2>Jag tycker gymnastik är roligt</h2>
+                <h1>Parkour</h1>
                 <p>
-                    Tränare: Bävrarna
+                    Födda: 17
                     <br>
-                    Född: 1981
+                    Dag: Söndag
                     <br>
-                    Styrelsen: Ordförande
+                    Tid: 15:00-16:00
                     <br>
-                    Utbildning: Parkour & Truppgymnastik
+                    Plats: Vikstahallen
+                    <br>
+                    Ledare: Louise & Daniel
                 </p>
                 <hr>
             </div>
             <div class="col-sm-12 col-md-6">
-                <img src="assets/images/KG_logo_black-4.webp" width="60%">
-                <h1>Hilma Zetterlund</h1>
-                <h2>Jag tycker gymnastik är roligt</h2>
+                <h1>Grodorna</h1>
                 <p>
-                    Tränare: 
+                    Träning 1
                     <br>
-                    Född: 
+                    Ålder: 6-7
                     <br>
-                    Styrelsen: 
+                    Dag: Onsdag
                     <br>
-                    Utbildning: 
+                    Tid: 17:30-18:30
+                    <br>
+                    Plats: Tolitaskolan
+                    <br>
+                    Ledare: Isabell, Louise & Daniel
                 </p>
-                <hr>
+                <p>
+                    Träning 2
+                    <br>
+                    Dag: Söndag
+                    <br>
+                    Tid: 16:00-17:30
+                    <br>
+                    Plats: Vikstahallen
+                    <br>
+                    Ledare: Isabell, Olivia
+                    <hr>
+                </p>
             </div>
             <div class="col-sm-12 col-md-6">
-                <img src="assets/images/KG_logo_black-4.webp" width="60%">
-                <h1>Klara Johansson</h1>
-                <h2>Jag tycker gymnastik är roligt</h2>
+                <h1>Bävrarna</h1>
                 <p>
-                    Hjälp Tränare: Delfinerna & Fiskarna
+                    Träning 1
                     <br>
-                    Född: 2009
+                    Ålder: 9+
                     <br>
-                    Utbildning:
+                    Dag: Onsdag
+                    <br>
+                    Tid: 17:30-18:30
+                    <br>
+                    Plats: Tolitaskolan
+                    <br>
+                    Ledare: Isabell, Louise & Daniel
                 </p>
-                <hr>
-            </div>
-            <div class="col-sm-12 col-md-6">
-                <img src="assets/images/KG_logo_black-4.webp" width="60%">
-                <h1>Olivia Andersson</h1>
-                <h2>Jag tycker gymnastik är roligt</h2>
                 <p>
-                    Hjälp Tränare: Delfinerna & Fiskarna
+                    Träning 2
                     <br>
-                    Född: 2012
+                    Dag: Söndag
                     <br>
-                    Utbildning:
+                    Tid: 16:00-17:30
+                    <br>
+                    Plats: Vikstahallen
+                    <br>
+                    Ledare: Louise, Sandra & Daniel
+                    <hr>
                 </p>
-                <hr>
-            </div>
-            <div class="col-sm-12 col-md-6">
-                <img src="assets/images/KG_logo_black-4.webp" width="60%">
-                <h1>Oscar Ulfsparre</h1>
-                <h2>Jag tycker gymnastik är roligt</h2>
-                <p>
-                    Hjälp Tränare: Lejonen & Parkour
-                    <br>
-                    Född: 2012
-                    <br>
-                    Utbildning:
-                </p>
-                <hr>
-            </div>
-            <div class="col-sm-12 col-md-6">
-                <img src="assets/images/KG_logo_black-4.webp" width="60%">
-                <h1>Stina Wirvén</h1>
-                <h2>Jag tycker gymnastik är roligt</h2>
-                <p>
-                    Hjälp Tränare: Fiskarna & Grodorna
-                    <br>
-                    Född: 2013
-                    <br>
-                    Utbildning:
-                </p>
-                <hr>
             </div>
         </div>
     </div>
     <!-- Footer -->
+
     <footer class="footer py-4">
         <div class="container text-center">
             <p>&copy; 2024 Kils Gymnaster</p>
             <ul class="list-inline d-flex justify-content-between">
-                <li class="list-inline-item"><a href="https://www.facebook.com/people/Kils-Gymnaster/100059758867475/"
-                        target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i
+                <li class="list-inline-item"><a
+                        href="https://www.facebook.com/people/Kils-Gymnaster/100059758867475/" target="_blank"
+                        rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i
                             class="fa-brands fa-facebook"></i></a></li>
                 <li class="list-inline-item"><a href="https://www.instagram.com/kilsgymnaster/" target="_blank"
                         rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i
@@ -291,6 +315,7 @@
             </ul>
         </div>
     </footer>
+
     <script src="https://kit.fontawesome.com/1b4f7b5728.js" crossorigin="anonymous"></script>
 </body>
 
