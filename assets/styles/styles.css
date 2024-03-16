@@ -9,6 +9,12 @@ body {
     background-color: #F4F6F6;
 }
 
+#logo {
+    background: url('../images/KGlogga.webp') no-repeat center center / cover;
+    width: 100px;
+    height: 100px;
+}
+
 .navbar {
     background-color: #1bace4;
     box-shadow: 2px 2px 2px black;
