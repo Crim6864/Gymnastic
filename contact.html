@@ -37,95 +37,27 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav text-center ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/templates/index.html">Hem</a>
+                    <a class="nav-link" href="index.html">Hem</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/templates/traning.html">Träning</a>
+                    <a class="nav-link" href="traning.html">Träning</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/templates/about.html">Om oss</a>
+                    <a class="nav-link" href="about.html">Om oss</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/templates/contact.html">Kontakt</a>
+                    <a class="nav-link" href="contact.html">Kontakt</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/templates/calender.html">Kalender</a>
+                    <a class="nav-link" href="calender.html">Kalender</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://www.tifosi.se/kilsgymnaster">Webbshop</a>
                 </li>
             </ul>
-            <div class="ml-auto">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">Log
-                    In</button>
-            </div>
         </div>
     </nav>
-    <!-- Login Modal -->
-    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="loginModalLabel">Log In</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <!-- Login form -->
-                    <form action="/login" method="POST">
-                        <div class="form-group">
-                            <label for="login_username">Username:</label>
-                            <input type="text" class="form-control" id="login_username" name="username" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="login_password">Password:</label>
-                            <input type="password" class="form-control" id="login_password" name="password" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Log In</button>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal"
-                        data-target="#registerModal">Register</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Register Modal -->
-    <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="registerModalLabel">Register</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <!-- Register form -->
-                    <form action="/register" method="POST">
-                        <div class="form-group">
-                            <label for="register_username">Username:</label>
-                            <input type="text" class="form-control" id="register_username" name="username" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="register_password">Password:</label>
-                            <input type="password" class="form-control" id="register_password" name="password" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Register</button>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
+ 
     <!-- Content -->
     <div class="container text-center ">
         <div class="row">
@@ -180,13 +112,14 @@
         <div class="container text-center">
             <p>&copy; 2024 Kils Gymnaster</p>
             <ul class="list-inline d-flex justify-content-between">
-                <li class="list-inline-item"><a href="https://www.facebook.com/people/Kils-Gymnaster/100059758867475/"
-                        target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i
+                <li class="list-inline-item"><a
+                        href="https://www.facebook.com/profile.php?id=61555492544810" target="_blank"
+                        rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i
                             class="fa-brands fa-facebook"></i></a></li>
-                <li class="list-inline-item"><a href="https://www.instagram.com/kilsgymnaster/" target="_blank"
+                <li class="list-inline-item"><a href="https://www.instagram.com/kilsgymnasterna" target="_blank"
                         rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i
                             class="fa-brands fa-instagram"></i></a></li>
-                <li class="list-inline-item"><a href="https://www.tiktok.com/@kils.gymnaster" target="_blank"
+                <li class="list-inline-item"><a href="https://www.tiktok.com/@kils_gymnaster" target="_blank"
                         rel="noopener" aria-label="Visit our TikTok page (opens in a new tab)"><i
                             class="fa-brands fa-tiktok"></i></a></li>
             </ul>
